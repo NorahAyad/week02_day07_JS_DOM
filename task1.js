@@ -25,23 +25,23 @@ function two(){
     
     // img2.src="img/1.png";
     
-    if( img2.src==="http://127.0.0.1:5500/img/1.png"){
+    if( img2.src==="http://www.javatpoint.com/images/javascript/javascript_logo.png"){
 
-        img2.src="http://www.javatpoint.com/images/javascript/javascript_logo.png";
+        img2.src="img/1.png";
        
     } else{
-        img2.src="img/1.png";
+        img2.src="http://www.javatpoint.com/images/javascript/javascript_logo.png";
        
 
 }}
 function haver(){
 const m= document.querySelector("img");
-if( m.src==="http://127.0.0.1:5500/img/1.png"){
+if( m.src==="http://www.javatpoint.com/images/javascript/javascript_logo.png"){
 
-    m.src="http://www.javatpoint.com/images/javascript/javascript_logo.png";
+    m.src="img/1.png";
    
 } else{
-    m.src="img/1.png";
+    m.src="http://www.javatpoint.com/images/javascript/javascript_logo.png";
    
 }
 
@@ -60,3 +60,6 @@ function haver2(){
     }
     
 }
+function myFunction() {
+    alert("Page is loaded");
+  }

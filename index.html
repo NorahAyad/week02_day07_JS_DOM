@@ -11,14 +11,14 @@
 
     </css>
 </head>
-<body>
+<body onload="myFunction()">
     <h1 id="heading" > Web Development Essentials</h1>
     <p onmouseout=" haver2()" id="paragraph">W02D02-Lab in JavaScript course is about Scripting and Event Handling DOM!</p>
     <form id="form">
         <label for="name">Name:</label><br>
-        <input onclick="haver2()" type="text" id="name" name="name" value=""><br>
+        <input onkeydown="haver1()" type="text" id="name" name="name" value=""><br>
         <label for="course">Course:</label><br>
-        <input  onclick="haver1()"type="text" id="course" name="course" value=""><br><br>
+        <input  onkeydown="haver1()"type="text" id="course" name="course" value=""><br><br>
         <input type="submit" value="Submit">
     </form>
     <br>
@@ -30,8 +30,8 @@
     <button onclick="two()" > two images </button>
     
     <script type="text/javascript" src="task1.js">   </script>
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
         alert("hi");
-        </script>
+        </script> -->
 </body>
 </html>
